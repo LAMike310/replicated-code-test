@@ -1,0 +1,45 @@
+.header-container {
+	color: white;
+	background: #176488;
+	padding:  0 0 30px 0;
+    .headline {
+    	font-size: 22px;
+    	margin-top: 40px;
+    }
+    .header-button, .header-button:hover {
+    	color: white;
+    	padding: 10px 15px;
+    }
+	.primary {
+    	color: #176488;
+    	background: white;
+    	margin-right: 25px;
+    }
+    .secondary {
+    	border: 2px solid white;
+    	color: white;
+    }
+    .content {
+    	font-size: 14px;
+    }
+    input[type='submit'] {
+    	color: #176488;
+    	background: white;
+    	margin-right: 25px;
+    }
+    @media screen and (min-width:1000px) {
+    	padding: 140px 0px;
+    	.headline {
+    		font-size: 42px;
+    	}
+    	.content {
+    		font-size: 17px;
+	    	margin: 0 90px 33px 0;
+    	}
+    	.header-button, .header-button:hover {
+    		font-size: 18px;
+	    	padding: 10px 30px;
+    	}
+    }
+}
+

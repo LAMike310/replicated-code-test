@@ -1,0 +1,25 @@
+.feature-container {
+	color: #323232;
+	.tagline {
+		font-size: 26px;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.title {
+		font-size: 20px;
+		margin-bottom: 8px;
+	}
+	.description {
+		color: #9B9B9B;
+		font-size: 17px;
+	}
+	@media screen and (min-width:1000px) {
+		margin-bottom: 45px;
+		.tagline {
+			font-size: 46px;
+			margin: 68px 0 45px 0;
+		}
+	}
+	
+}
+

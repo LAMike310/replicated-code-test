@@ -1,0 +1,10 @@
+.full-width-container {
+    width: 100%;
+    max-width: none;
+}
+
+.loading-text {
+	margin-top: 50vh;
+	text-align: center;
+	color: #666;
+}
